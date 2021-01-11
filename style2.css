@@ -1,0 +1,9 @@
+/*import font used*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+/* Global styles */
+body{
+  Background-color:#F7F2E0;
+  font-family: 'Nanum Gothic', sans-serif;
+}
