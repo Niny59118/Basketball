@@ -73,4 +73,48 @@
           Ut velit mauris, egestas sed, gravida nec, ornare ut, mi. Aenean ut orci vel massa suscipit pulvinar. Nulla sollicitudin. Fusce varius, ligula non tempus aliquam, nunc turpis ullamcorper nibh, in tempus sapien eros vitae ligula. Pellentesque rhoncus nunc et augue. Integer id felis. Curabitur aliquet pellentesque diam. Integer quis metus vitae elit lobortis egestas. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi vel erat non mauris convallis vehicula. Nulla et sapien. Integer tortor tellus, aliquam faucibus, convallis id, congue eu, quam. Mauris ullamcorper felis vitae erat. Proin feugiat, augue non elementum posuere, metus purus iaculis lectus, et tristique ligula justo vitae magna.
           </p>
           <h3 class="my-5 mx-5 rounded text-center">Vous souhaitez participer à cet evenement? Réservez dès à présent votre place!</h3>
-             
+          
+          <!-- Button trigger modal -->
+      <section class="text-center">
+        <button type="button" class="mx-5 rounded text-center btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Réserver
+        </button>
+      </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="inscription" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="inscription">Inscription</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Prénom" aria-label="First name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Nom" aria-label="Last name">
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">
+              </label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="adresse mail">
+            </div>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Nombre de participant(s)</option>
+              <option value="1">1 participant</option>
+              <option value="2">2 participants</option>
+              <option value="3">3 participants</option>
+              <option value="4">4 participants</option>
+            </select>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline-success">valider</button>
+          </div>
+        </div>
+      </div>
+    </div>
