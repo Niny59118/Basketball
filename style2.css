@@ -10,12 +10,12 @@ body{
 
 /*nav styles */
 .nav-link:hover{
-    color: #F5DA81;
-    }
+color: #F5DA81;
+}
 
 /*media queries*/
 @media screen and (max-width:411px){
-    .d-block{
-    margin-bottom:30px;
-    }
-    }
+.d-block{
+margin-bottom:30px;
+}
+}
