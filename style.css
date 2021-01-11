@@ -13,3 +13,11 @@ body{
 .nav-link:hover{
 color: #F5DA81;
 }
+/* cards styles */
+.card {
+    background-color:#F7F2E0;
+  }
+  
+  .logo{
+    height:8vh;
+  }
