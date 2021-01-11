@@ -14,3 +14,31 @@ body{
 color: #F5DA81;
 }
 
+/* cards styles */
+.card {
+    background-color:#F7F2E0;
+  }
+  
+  .logo{
+    height:8vh;
+  }
+  
+  .ball{
+    widows: 30px;
+    height: 30px;
+   animation:8s ease-in 2s 1 goRight;
+  }
+  
+  @keyframes goRight{
+    10% { Transform: translateX(4px) translateY(12px) rotate(90deg); }
+    20% { Transform: translateX(150px) translateY(-12px) rotate(90deg); }
+    30% { Transform: translateX(300px) translateY(12px) rotate(90deg); }
+    40% { Transform: translateX(450px) translateY(-12px) rotate(90deg); }
+    50% { Transform: translateX(600px) translateY(12px) rotate(90deg); }
+    60% { Transform: translateX(750px) translateY(-12px) rotate(90deg); }
+    70% { Transform: translateX(900px) translateY(12px) rotate(90deg); }
+    80% { Transform: translateX(1050px) translateY(-12px) rotate(90deg); }
+    90% { Transform: translateX(1200px) translateY(12px) rotate(90deg); }
+    100% { Transform: translateX(1350px) translateY(-12px) rotate(90deg); }
+  }
+  
