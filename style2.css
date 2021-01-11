@@ -7,3 +7,9 @@ body{
   Background-color:#F7F2E0;
   font-family: 'Nanum Gothic', sans-serif;
 }
+
+/*nav styles */
+.nav-link:hover{
+    color: #F5DA81;
+    }
+    
